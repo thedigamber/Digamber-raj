@@ -21,43 +21,4 @@ def apply_theme():
             border-radius: 10px;
             padding: 15px;
             background-color: #0f0f0f;
-            scrollbar-width: thin;
-            scrollbar-color: #39ff14 #1a1a1a;
-        }
-        .chat-container::-webkit-scrollbar {
-            width: 8px;
-        }
-        .chat-container::-webkit-scrollbar-thumb {
-            background-color: #39ff14;
-            border-radius: 10px;
-        }
-        .chat-container::-webkit-scrollbar-track {
-            background: #1a1a1a;
-        }
-        .chat-input-container {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            background-color: #0f0f0f;
-            padding: 15px;
-            border-top: 1px solid #39ff14;
-            z-index: 100;
-        }
-        .upload-container {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 15px;
-            background-color: #0f0f0f;
-            border-bottom: 1px solid #39ff14;
-        }
-        .upload-container label {
-            color: #39ff14;
-            margin-right: 10px;
-        }
-        .upload-container input {
-            color: #39ff14;
-        }
-        </style>
-    """, unsafe_allow_html=True)
+            scrollbar-width
