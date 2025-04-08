@@ -1,0 +1,9 @@
+streamlit
+requests
+Pillow
+google-generativeai
+PyPDF2
+gtts
+uuid
+emoji
+transformers
